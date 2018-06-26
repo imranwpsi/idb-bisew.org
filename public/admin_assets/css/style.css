@@ -1,0 +1,49 @@
+.page-container {
+    min-height: 100vh;
+}
+.primary-btn {
+    background: transparent;
+    border: 1px solid #3f81fc;
+    color: #3f81fc;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0 50px;
+    margin: 16px 10px;
+    line-height: 35px;
+    transition: all .2s ease-in-out 0s;
+}
+.primary-btn:hover {
+    border: 1px solid #3f81fc;
+    background: #3f81fc;
+    color: #fff;
+    transition: all .2s ease-in-out 0s;
+}
+
+.page-header-default {
+    padding: 10px 0;
+}
+.table>thead>tr>th {
+    border-bottom: 1px solid #bbb;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 6px 20px;
+    line-height: 1.5384616;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.add-form {
+    margin-bottom: 40px;
+}
+
+nav a.router-link-active {
+    font-weight: 700;
+}
+
+.navigation>li>a.router-link-exact-active, .navigation>li>a.router-link-exact-active:focus, .navigation>li>a.router-link-exact-active:hover {
+    background-color: #26a69a;
+    color: #fff;
+}

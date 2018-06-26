@@ -1,0 +1,6 @@
+/* vue-truncate-filter stat */
+npm install vue-truncate-filter --save
+
+var VueTruncate = require('vue-truncate-filter')
+Vue.use(VueTruncate)
+/* vue-truncate-filter stat */
